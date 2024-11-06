@@ -1,0 +1,22 @@
+﻿<Window x:Class="Bevolkingsgroei.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bevolkingsgroei"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Land" HorizontalAlignment="Left" Margin="144,65,0,0" VerticalAlignment="Top"/>
+        <Label Content="Huidige bevolking" HorizontalAlignment="Left" Margin="144,109,0,0" VerticalAlignment="Top"/>
+        <Label Content="Groeipercentage " HorizontalAlignment="Left" Margin="144,151,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="landTextBox" HorizontalAlignment="Left" Margin="320,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="bevolkingTextBox" HorizontalAlignment="Left" Margin="320,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="percentageTextBox" HorizontalAlignment="Left" Margin="320,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="resultTextBox" HorizontalAlignment="Left" Margin="152,187,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="288" Height="119"/>
+        <Button x:Name="colculateButton" Content="Berkenen" HorizontalAlignment="Left" Margin="481,197,0,0" VerticalAlignment="Top" Width="64" Click="colculateButton_Click"/>
+        <Button x:Name="clearButton" Content="Wissen" HorizontalAlignment="Left" Margin="481,232,0,0" VerticalAlignment="Top" Width="64" Click="clearButton_Click"/>
+        <Button x:Name="closeButton" Content="Afsluiten" HorizontalAlignment="Left" Margin="481,268,0,0" VerticalAlignment="Top" Width="64" Click="closeButton_Click"/>
+
+    </Grid>
+</Window>
